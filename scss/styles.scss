@@ -1,16 +1,20 @@
 $primary-1: #ff4500;
 $primary-2: #631c02;
 $white: #efefef;
+$white-pure: #fff;
 $black: #111;
+$black-pure: #000;
 $light-1: beige;
 $light-2: khaki;
-$grey-xtra-dark: #222; 
-$grey-dark: #333;
-$grey-med-dark: #565656;
-$grey-med: #9a9a9a;
-$grey-med-light: #ababab;
-$grey-light: #ccc;
-$grey-xtra-light: #dedede;
+$grey-1: #222; 
+$grey-2: #333;
+$grey-3: #565656;
+$grey-4: #787878;
+$grey-5: #9a9a9a;
+$grey-6: #ababab;
+$grey-7: #ccc;
+$grey-8: #ddd;
+$grey-9: #eee;
 $red-1: darkred;
 $red-2: red;
 $orange-1: darkorange;
@@ -20,9 +24,30 @@ $yellow-2: goldenrod;
 $yellow-3: gold;
 $yellow-4: yellow;
 $yellow-5: #fcfc9f;
+$green-1: darkgreen;
+$green-2: green;
+$green-3: lightgreen;
+$blue-1: darkblue;
+$blue-2: blue;
+$blue-3: lightblue;
 $sky-blue: skyblue;
+$cyan-1: cyan;
+$cyan-2: darkcyan;
+$teal: teal;
+$sienna: sienna;
+
+$border-r-1: 3px;
+$border-r-2: 5px;
+$border-r-3: 8px;
+
+$box-shad-1: rgba(0, 0, 0, 0.9);
+$box-shad-2: rgba(0, 0, 0, 0.6);
+$box-shad-3: rgba(0, 0, 0, 0.3);
 
 body {
     background-color: $black;
-    color: $primary-1;
+}
+
+h1 {
+    color: $light-1 
 }
