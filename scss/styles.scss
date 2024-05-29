@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bebas+Neue&family=Bitter:ital,wght@0,100..900;1,100..900&family=Caveat:wght@400..700&family=Great+Vibes&family=Kalam:wght@300;400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Quicksand:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
 $primary-1: #ff4500;
 $primary-2: #631c02;
 $white: #efefef;
@@ -44,10 +47,65 @@ $box-shad-1: rgba(0, 0, 0, 0.9);
 $box-shad-2: rgba(0, 0, 0, 0.6);
 $box-shad-3: rgba(0, 0, 0, 0.3);
 
+$font-sans: 'Mulish', sans-serif;
+$font-sans-2: 'Montserrat', sans-serif;
+$font-sans-condensed: 'Roboto Condensed', sans-serif;
+$font-sans-heading: 'Bebas Neue', sans-serif; 
+$font-serif: 'Bitter', serif;
+$font-mono: 'Ubuntu Sans Mono', monospace;
+$font-cursive: 'Caveat', cursive;
+
 body {
     background-color: $black;
 }
 
 h1 {
-    color: $light-1 
+    font-family: $font-sans-heading;
+    color: $light-1;
+}
+
+h4 {
+    font-family: $font-sans;
+    color: $primary-1;
+}
+
+.para-1 {
+    font-family: $font-sans;
+    color: $yellow-4;
+    background-color: $grey-1;
+}
+.para-2 {
+    font-family: $font-sans-2;
+    color: $yellow-3;
+    background-color: $grey-2;
+}
+.para-3 {
+    font-family: $font-sans-condensed;
+    color: $yellow-2;
+    background-color: $grey-3;
+}
+.para-4 {
+    font-family: $font-sans-heading;
+    color: $yellow-1;
+    background-color: $grey-4;
+}
+.para-5 {
+    font-family: $font-sans;
+    color: $orange-1;
+    background-color: $grey-5;
+}
+.para-6 {
+    font-family: $font-serif;
+    color: $orange-2;
+    background-color: $grey-6;
+}
+.para-7 {
+    font-family: $font-mono;
+    color: $red-1;
+    background-color: $grey-7;
+}
+.para-8 {
+    font-family: $font-cursive;
+    color: $red-2;
+    background-color: $grey-8;
 }
