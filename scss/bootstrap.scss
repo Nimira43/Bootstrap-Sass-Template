@@ -1,0 +1,10 @@
+$primary:       orangered !default;
+$secondary:     #333 !default;
+$success:       forestgreen !default;
+$info:          blue !default;
+$warning:       gold !default;
+$danger:        red !default;
+$light:         #ccc !default;
+$dark:          #111 !default;
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss'
