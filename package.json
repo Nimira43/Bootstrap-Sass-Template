@@ -1,7 +1,7 @@
 {
   "name": "template-with-sass",
   "version": "1.0.0",
-  "description": "Starting boilerplate template for Bootstrap 5 using Sass",
+  "description": "Bootstrap Sass Template",
   "main": "index.js",
   "scripts": {
     "sass:build": "sass --no-source-map scss:css",
@@ -11,6 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.2",
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "sass": "^1.77.2"
   }
 }
