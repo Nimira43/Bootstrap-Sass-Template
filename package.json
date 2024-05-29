@@ -1,7 +1,7 @@
 {
   "name": "template-with-sass",
   "version": "1.0.0",
-  "description": "",
+  "description": "Starting boilerplate template for Bootstrap 5 using Sass",
   "main": "index.js",
   "scripts": {
     "sass:build": "sass scss:css"
