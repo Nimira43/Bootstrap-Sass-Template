@@ -1,0 +1,11 @@
+{
+  "name": "template-with-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass scss:css"
+  },
+  "author": "Nick Rabone",
+  "license": "MIT"
+}
